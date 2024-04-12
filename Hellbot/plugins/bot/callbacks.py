@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, hellbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @Its_HellBot",
+            "You are not authorized to use this bot. \n\n</> @BLOODAVI",
             show_alert=True,
         )
         return False
@@ -262,7 +262,7 @@ async def help_close_cb(_, cb: CallbackQuery):
         ]
         await cb.edit_message_text(
             "__» The source code is available on GitHub. You can find the link below.__\n"
-            "__» Every project available under The-HellBot are open-source and free to use and modify to your needs.__\n"
+            "__» Every project available under @BLOODAVI are open-source and free to use and modify to your needs.__\n"
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
