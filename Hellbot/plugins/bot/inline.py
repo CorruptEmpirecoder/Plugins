@@ -26,7 +26,7 @@ async def help_inline(_, query: InlineQuery):
         results=[
             (
                 InlineQueryResultArticle(
-                    "HellBot Help Menu 🍀",
+                    "B𝚒𝚕𝚕𝚒𝙱𝚘𝚝 Help Men𝚞🐈",
                     InputTextMessageContent(
                         caption,
                         disable_web_page_preview=True,
