@@ -269,23 +269,23 @@ HelpMenu("pmpermit").add(
     "block",
     "<reply to user>/<userid/username>",
     "Block a user from pm-ing you.",
-    "block @ForGo10God",
+    "block @BloodAvi",
 ).add(
     "unblock",
     "<reply to user>/<userid/username>",
     "Unblock a user from pm-ing you.",
-    "unblock @ForGo10God",
+    "unblock @BloodAvi",
 ).add(
     "allow",
     "<reply to user>/<userid/username>",
     "Allow a user to pm you.",
-    "allow @ForGo10God",
+    "allow @BloodAvi",
     "An alias of 'approve' is also available.",
 ).add(
     "disallow",
     "<reply to user>/<userid/username>",
     "Disallow a user to pm you.",
-    "disallow @ForGo10God",
+    "disallow @BloodAvi",
     "An alias of 'disapprove' is also available.",
 ).add(
     "allowlist",
