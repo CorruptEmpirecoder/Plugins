@@ -360,21 +360,21 @@ HelpMenu("groups").add(
 ).add(
     "kickme", None, "Leave the chat in swag 😎!", "kickme"
 ).add(
-    "newgroup", "<title>", "Create a new group.", "newgroup HellBot Group"
+    "newgroup", "<title>", "Create a new group.", "newgroup BilliBot Group"
 ).add(
-    "newchannel", "<title>", "Create a new channel.", "newchannel HellBot Channel"
+    "newchannel", "<title>", "Create a new channel.", "newchannel BilliBot Channel"
 ).add(
     "chatinfo", "<chat id (optional)>", "Get info about the chat.", "chatinfo"
 ).add(
     "chatadmins",
     "<chat id (optional)>",
     "Get the list of admins of mentioned chat.",
-    "chatadmins @Hellbot_Chats",
+    "chatadmins @BloodAvi",
 ).add(
     "chatbots",
     "<chat id (optional)>",
     "Get the list of bots of mentioned chat.",
-    "chatbots @Hellbot_Chats",
+    "chatbots @BloodAvi",
 ).add(
     "id",
     "<reply to message (optional)>",
@@ -384,7 +384,7 @@ HelpMenu("groups").add(
     "invite",
     "<username/id>",
     "Invite the mentioned user to this chat.",
-    "invite @ForGo10God",
+    "invite @C0der_Avi",
     "You can invite multiple users by giving their username/id separated by space.",
 ).info(
     "Group Menu"
