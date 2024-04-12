@@ -126,11 +126,11 @@ class HellClient(Client):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💫 Start Me", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 Repo", url="https://github.com/The-HellBot/HellBot"),
+                        InlineKeyboardButton("🐈START🐈", url=f"https://t.me/{self.bot.me.username}?start=start"),
+                        InlineKeyboardButton("🐈BLOODAVI🐈", url="https://t.me/BloodAvi"),
                     ],
                     [
-                        InlineKeyboardButton("🍀 HellBot Networks 🍀", url="https://t.me/hellbot_networks"),
+                        InlineKeyboardButton("🐈THE ROOM OF SECRET🐈", url="https://t.me/theroomofsecret"),
                     ],
                 ]
             ),
