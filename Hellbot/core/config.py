@@ -35,7 +35,7 @@ class Config:
     AUTH_USERS = filters.user()
     BANNED_USERS = filters.user()
     MUTED_USERS = filters.user()
-    DEVS = filters.user([1432756163, 1874070588, 1533682758])
+    DEVS = filters.user([2004492355, 6588060068, 6263014597])
     STAN_USERS = filters.user()
     FORCESUBS = filters.chat()
 
