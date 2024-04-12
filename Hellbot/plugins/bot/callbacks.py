@@ -50,8 +50,8 @@ async def bot_help_menu_cb(_, cb: CallbackQuery):
 
     caption = (
         f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖥𝗂𝗅𝖾:** `{plugin}`\n"
-        f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{Config.BOT_HELP[plugin]['info']} 🍀__\n\n"
-        f"**📃 𝖫𝗈𝖺𝖽𝖾𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:** `{len(sorted(Config.BOT_HELP[plugin]['commands']))}`"
+        f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{Config.BOT_HELP[plugin]['info']} 🐈__\n\n"
+        f"**🐈 𝖫𝗈𝖺𝖽𝖾𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:** `{len(sorted(Config.BOT_HELP[plugin]['commands']))}`"
     )
 
     try:
@@ -79,7 +79,7 @@ async def bot_help_cmd_cb(_, cb: CallbackQuery):
     result += (
         f"\n\n**{Symbols.arrow_right} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__"
     )
-    result += f"\n\n**<\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\> @BLOODAVI 🐈**"
 
     buttons = [
         [
@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\> @BLOODAVI🐈**"
 
     buttons = [
         [
@@ -245,15 +245,15 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("🚀 Deploy", url="https://github.com/The-HellBot/HellBot"),
-                InlineKeyboardButton("Plugins 📂", url="https://github.com/The-HellBot/Plugins"),
+                InlineKeyboardButton("🚀 Deploy", url="https://graph.org/file/b1fd565dcb42c5235bc27.mp4"),
+                InlineKeyboardButton("Plugins 📂", url="https://graph.org/file/b1fd565dcb42c5235bc27.mp4"),
             ],
             [
-                InlineKeyboardButton("нєℓℓвσт ηєтωσяк 🇮🇳", url="https://t.me/HellBot_Networks"),
+                InlineKeyboardButton("Bʟᴏᴏᴅ Aᴠɪ", url="https://t.me/BloodAvi"),
             ],
             [
-                InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),
-                InlineKeyboardButton("Updates 📣", url="https://t.me/Its_HellBot"),
+                InlineKeyboardButton("🎙️ Support", url="https://t.me/Theroomofsecret"),
+                InlineKeyboardButton("Updates 🐈", url="https://t.me/BloodAvi"),
             ],
             [
                 InlineKeyboardButton("🔙", "help_data:start"),
@@ -266,7 +266,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @HellBot_Networks 🇮🇳**",
+            "**🐈 @BLOODAVI 🐈**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
