@@ -53,10 +53,10 @@ async def help(client: Client, message: Message):
 @on_message("repo", allow_stan=True)
 async def repo(_, message: Message):
     REPO_TEXT = (
-        "__🍀 𝖱𝖾𝗉𝗈:__ [Github](https://github.com/The-HellBot/HellBot)\n\n"
-        "__🍀 Updates:__ @Its_HellBot\n"
-        "__🍀 Support:__ @HellBot_Chats\n\n"
-        "**By ©️ @HellBot_Networks**"
+        "__🐈 𝖱𝖾𝗉𝗈:__ [Github](https://graph.org/file/b1fd565dcb42c5235bc27.mp4)\n\n"
+        "__🐈 Updates:__ @BLOODAVI\n"
+        "__🐈 Support:__ @THEROOMOFSECRET\n\n"
+        "**By ©️ @BLOODAVI**"
     )
     await hellbot.edit(message, REPO_TEXT, no_link_preview=True)
 
@@ -83,7 +83,7 @@ async def command_info(_, message: Message):
         try:
             cmd_dict = Config.CMD_INFO[cmd.lower()]
             template = (
-                f"**🍀 𝖯𝗅𝗎𝗀𝗂𝗇:** `{cmd_dict['plugin']}.py`\n\n"
+                f"**🐈 𝖯𝗅𝗎𝗀𝗂𝗇:** `{cmd_dict['plugin']}.py`\n\n"
                 f"**{Symbols.anchor} 𝖢𝗈𝗆𝗆𝖺𝗇𝖽:** `{cmd_dict['command']}`\n"
                 f"**{Symbols.anchor} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__\n"
                 f"**{Symbols.anchor} 𝖤𝗑𝖺𝗆𝗉𝗅𝖾:** `{cmd_dict['example']}`\n"
@@ -110,7 +110,7 @@ async def send_plugin(client: Client, message: Message):
         await client.send_document(
             message.chat.id,
             f"./Hellbot/plugins/user/{plugin}.py",
-            caption=f"**🍀 𝖯𝗅𝗎𝗀𝗂𝗇:** `{plugin}.py`",
+            caption=f"**🐈 𝖯𝗅𝗎𝗀𝗂𝗇:** `{plugin}.py`",
         )
         await hellbot.delete(message, f"**Sent:** `{plugin}.py`")
     except Exception as e:
