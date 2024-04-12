@@ -102,13 +102,13 @@ HelpMenu("filters").add(
     "filter",
     "<keyword> <reply to a message>",
     "Saves the replied message as a filter to given keyword along the command.",
-    "filter hellbot",
+    "filter @BloodAvi",
     "You need to reply to the message you want to save as filter. You can also save media as filters alonng with captions.",
 ).add(
     "rmfilter",
     "<keyword>",
     "Removes the filter with given keyword.",
-    "rmfilter hellbot",
+    "rmfilter @BloodAvi",
 ).add(
     "rmallfilter",
     None,
