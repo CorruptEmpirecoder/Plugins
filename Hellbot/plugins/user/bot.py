@@ -128,7 +128,7 @@ HelpMenu("bot").add(
     "history",
     "<reply to user>/<username/id>",
     "Get the username, name history of an user.",
-    "history @ForGo10_God",
+    "history @C0der_Avi",
     "This command uses SangMata Bot to get the history.",
 ).info(
     "Alive Menu"
